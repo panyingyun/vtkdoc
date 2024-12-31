@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM docker.m.daocloud.io/library/ubuntu:22.04
 
 WORKDIR /book
 COPY docs  /book/docs
